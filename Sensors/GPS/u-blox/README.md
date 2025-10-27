@@ -1,11 +1,11 @@
 # u-blox GPS
-u-blox make high quality GPS modules
-The one I describe here is an **M10-pro** module
+u-blox make high quality GPS modules\
+The one I describe here is an **M100-pro** module by _HGLRX_
 This modules sends it's positioning information in the **ubx hex format**
 <details>
   <summary> image of module </summary>
   
-![M10-pro GPS module.](ubloxM10pro.jpg.webp)
+![M100-pro GPS module.](ubloxM10pro.jpg.webp)
 
 </details>
 
