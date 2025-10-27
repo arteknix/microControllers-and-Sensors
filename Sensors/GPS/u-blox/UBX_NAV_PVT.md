@@ -1,13 +1,14 @@
 # UBX NAV_PVT 
+:warning: _little endian hex_ *
+
 _the total length of the sentence is 102 hex bytes_ : 
-- header 6 +
-- payload 92 +
-- checksums 4
+> header 6 + payload 92 + checksums 4
   
-| | offset | type | size | val / unit | comment |
+| | offset | type | size * | val / unit | comment |
 | --- |--- | --- | --- | --- | --- |
 | | -6 | preamble | 2 | B5 62 | message
 | | -4 | headers | 4 | 01 07 5C 00 | 
+| --- |--- | --- | --- | --- | --- |
 | buffer | 0 | payload | 92 | 0x005C | |
 | 4 | 0|itow|U4||time
 | 8 | 4|year|U2||
@@ -43,3 +44,6 @@ _the total length of the sentence is 102 hex bytes_ :
 | 92 |88|madDec|I2|1 e-2 deg|
 | 94 |90|magAcc|U2|1 e-2 deg|
 | 96 |92||||total
+
+*[decoding howto](ubx_decoding.md) 
+
