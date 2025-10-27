@@ -10,3 +10,5 @@ This modules sends it's positioning information in the **ubx hex format**
 </details>
 
 By default the output from this gps is in **UBX-NAV-PVT** format. See [UBX_NAV_PVT.md](UBX_NAV_PVT.md)
+
+[official complete datasheet](https://www.peak-system.com/produktcd/Pdf/English/PCAN-GPS-FD_UserManAppendix_GNNS_InterfaceDescription.pdf)
