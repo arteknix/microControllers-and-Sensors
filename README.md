@@ -1,7 +1,7 @@
 # microControllers-and-Sensors
-The µ World of boards and sensors
+The µ World of Boards and Sensors
 
-So many boards amd sensors I've been playing with, home-made and commercial ones.
+So many boards and sensors I've been playing with, home-made and commercial ones.
 
 Hours gone on fixing stuff.
 
