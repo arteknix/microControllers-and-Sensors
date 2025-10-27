@@ -6,7 +6,7 @@ This module sends it's positioning information in the **ubx hex format**
 <details>
   <summary> image of module </summary>
   
-![M100-pro GPS module.](ubloxM10pro.jpg.webp)
+![M100-pro GPS module.](ubloxM100pro.png)
 
 </details>
 
