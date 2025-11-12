@@ -19,6 +19,7 @@ Broche OLED | Nom du signal	Description	Connexion typique (ex: Arduino)
 
 >[!TIP]
 > Remarque : Les broches R/W# et E/RD# doivent généralement être connectées à la masse (GND) lorsque l'interface série est utilisée.
+> [Arduino Example](https://forum.arduino.cc/t/arduino-uno-3-12inch-oled-display-256x64-spi-ssd1322/522847/2)
 
 ## Connexions Parallèles 8 bits (Interface Parallèle 8080)
 Cette interface offre des transferts de données plus rapides mais nécessite plus de broches.
@@ -45,5 +46,4 @@ Broche OLED | Nom du signal	Description
 >    Les modules modernes incluent souvent un décaleur intégré.
 >
 >    **Bibliothèque** : Des bibliothèques comme U8g2 (pour Arduino) gèrent très bien ces écrans et leurs différentes configurations d'interface.
->
->    Documentation : Toujours se référer à la fiche technique spécifique de votre module pour le brochage exact et les options de configuration de l'interface (via des cavaliers ou des résistances).
+>    [Arduino Example](https://forum.arduino.cc/t/arduino-uno-3-12inch-oled-display-256x64-spi-ssd1322/522847/2)
