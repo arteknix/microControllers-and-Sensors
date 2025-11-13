@@ -27,8 +27,8 @@ OLED PIN | Signal	| Description (ex: with Arduino pins)
 15 |	RES# |	RESET (active low) GPIO pin (eg: D8)
 16 |	CS# |	Chip Select (active low) GPIO pin (eg: D10)
 14 |	D/C# | Data/Command select (data high, command low) GPIO pin (eg: D9)
-13 |	R/W# | Lecture/Écriture (connected to GND pour SPI) GND
-12 |	E/RD# |	Activation/Lecture (connected to GND pour SPI) GND
+13 |	R/W# | Read/Write (connected to GND pour SPI) GND
+12 |	E/RD# |	Enable/Read (connected to GND pour SPI) GND
 4-11 |	D0-D7 |	Not used in 4-wire SPI mode
 Except |		
 5 |	D1 | SPI DATA (SDIN/MOSI) MOSI (ex: D11)
