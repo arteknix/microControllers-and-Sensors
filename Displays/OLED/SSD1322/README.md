@@ -1,4 +1,4 @@
-# L'écran
+# L'écran ***NOT FINISHED***
 ***OLED 3,12 pouces 256x64 avec contrôleur SSD1322*** prend généralement en charge les interfaces **SPI (série 3 ou 4 fils) et parallèle (8 bits 6800/8080)**.
 > Le brochage exact peut varier légèrement selon le module spécifique, mais voici une liste des connexions SPI 4 fils et parallèles 8080 (les plus courantes) :
 >
@@ -6,8 +6,8 @@
 C'est l'interface la plus simple et la plus utilisée avec les microcontrôleurs comme Arduino ou Raspberry Pi, car elle nécessite moins de fils.
 Broche OLED | Nom du signal	Description	Connexion typique (ex: Arduino)
 --- | --- 
-1	| VCC	Alimentation positive (généralement 3,3 V à 5 V, vérifiez la fiche technique)	5V ou 3.3V
-2, 3 |	GND	Masse	GND
+2 | VCC	Alimentation positive (généralement 3,3 V à 5 V, vérifiez la fiche technique)	5V ou 3.3V
+1 |	GND	Masse	GND
 4	RES# |	Signal de réinitialisation (actif bas)	Broche GPIO (ex: D8)
 5	CS#	| Sélection de puce (actif bas)	Broche GPIO (ex: D10)
 6	D/C#	| Sélection Données/Commande (Haut pour données, Bas pour commande)	Broche GPIO (ex: D9)
