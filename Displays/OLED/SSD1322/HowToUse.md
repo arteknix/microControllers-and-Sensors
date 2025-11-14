@@ -32,7 +32,7 @@ OLED PIN | Signal	| Description (ex: with Arduino pins)
 4-11 |	D0-D7 |	Not used in 4-wire SPI mode
 Except |		
 5 |	D1 | SPI DATA (SDIN/MOSI) MOSI (ex: D11)
-6 |	D0 | SPI CLK (D0 in this case) Broche SCLK (ex: D13)
+4 |	D0 | SPI CLK (D0 in this case) Broche SCLK (ex: D13)
 
 >[!Tip]
 > Remarque : Les broches R/W# et E/RD# doivent généralement être connectées à la masse (GND) lorsque l'interface série est utilisée.
