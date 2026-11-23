@@ -28,4 +28,4 @@ Controller is ILI9488, supported in Arduino.
 Cf. board labels opposite side, no special explanation required 
 
 ## Using with GFX_Library_for_Arduino
-See [GFX_Dev.h](./GFX_Dev.h) for example usage
+See [GFX_Dev.h](./GFX_Dev.h) for example usage with *4d_systems_esp32s3_gen4_r8n16*
